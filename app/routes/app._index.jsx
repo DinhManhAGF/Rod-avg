@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { json } from "@remix-run/node";
 import { useActionData, useNavigation, useSubmit } from "@remix-run/react";
+import AppNavigation from "./AppNavigation";
 import {
   Page,
   Layout,
@@ -85,11 +86,12 @@ export default function Index() {
 
   return (
     <Page>
-      <ui-title-bar title="Remix app template">
+      {/* <ui-title-bar title="Remix app template">
         <button variant="primary" onClick={generateProduct}>
           Generate a product
         </button>
-      </ui-title-bar>
+      </ui-title-bar> */}
+      <AppNavigation />
       <VerticalStack gap="5">
         <Layout>
           <Layout.Section>

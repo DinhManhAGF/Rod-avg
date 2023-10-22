@@ -19,11 +19,14 @@
     "prisma": "prisma"
   },
   "dependencies": {
+    "@apollo/client": "^3.8.6",
     "@prisma/client": "^4.13.0",
     "@remix-run/node": "^2.0.0",
     "@remix-run/react": "^2.0.0",
     "@remix-run/serve": "^2.0.0",
     "@shopify/app": "3.50.0",
+    "@shopify/app-bridge": "^3.7.9",
+    "@shopify/app-bridge-react": "^3.7.9",
     "@shopify/app-bridge-types": "^0.0.3",
     "@shopify/cli": "3.50.0",
     "@shopify/polaris": "^11.1.2",
@@ -35,6 +38,7 @@
     "prisma": "^4.13.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.17.0",
     "zod": "^3.22.4"
   },
   "devDependencies": {

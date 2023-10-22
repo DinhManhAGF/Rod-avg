@@ -2,7 +2,7 @@
 
 name = "rod-avg"
 client_id = "8556c4a4d9a0c40e042e4e9ca12777aa"
-application_url = "https://suffered-perform-shoppers-shall.trycloudflare.com"
+application_url = "https://cbs-amp-yarn-protective.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,10 +11,10 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://suffered-perform-shoppers-shall.trycloudflare.com/auth/callback",
-  "https://suffered-perform-shoppers-shall.trycloudflare.com/auth/shopify/callback",
-  "https://suffered-perform-shoppers-shall.trycloudflare.com/api/auth/callback",
-  "https://suffered-perform-shoppers-shall.trycloudflare.com/.shopify/graphiql/auth/callback"
+  "https://cbs-amp-yarn-protective.trycloudflare.com/auth/callback",
+  "https://cbs-amp-yarn-protective.trycloudflare.com/auth/shopify/callback",
+  "https://cbs-amp-yarn-protective.trycloudflare.com/api/auth/callback",
+  "https://cbs-amp-yarn-protective.trycloudflare.com/.shopify/graphiql/auth/callback"
 ]
 
 [webhooks]
