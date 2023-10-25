@@ -2,7 +2,7 @@
 
 name = "rod-avg"
 client_id = "8556c4a4d9a0c40e042e4e9ca12777aa"
-application_url = "https://cbs-amp-yarn-protective.trycloudflare.com"
+application_url = "https://core-eggs-analyst-statute.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,17 +11,30 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://cbs-amp-yarn-protective.trycloudflare.com/auth/callback",
-  "https://cbs-amp-yarn-protective.trycloudflare.com/auth/shopify/callback",
-  "https://cbs-amp-yarn-protective.trycloudflare.com/api/auth/callback",
-  "https://cbs-amp-yarn-protective.trycloudflare.com/.shopify/graphiql/auth/callback"
+  "https://core-eggs-analyst-statute.trycloudflare.com/auth/callback",
+  "https://core-eggs-analyst-statute.trycloudflare.com/auth/shopify/callback",
+  "https://core-eggs-analyst-statute.trycloudflare.com/api/auth/callback",
+  "https://core-eggs-analyst-statute.trycloudflare.com/.shopify/graphiql/auth/callback"
 ]
 
 [webhooks]
 api_version = "2023-10"
 
+  [webhooks.privacy_compliance]
+  customer_deletion_url = "https://my-app.com/wh/customer_deletion"
+  customer_data_request_url = "https://my-app.com/wh/customer_request"
+  shop_deletion_url = "https://my-app.com/wh/deletion"
+
+[app_proxy]
+url = "https://core-eggs-analyst-statute.trycloudflare.com"
+subpath = "foo"
+prefix = "apps"
+
 [pos]
 embedded = false
+
+[app_preferences]
+url = "https://www.example.com/preferences"
 
 [build]
 automatically_update_urls_on_dev = true
